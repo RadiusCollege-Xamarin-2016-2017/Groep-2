@@ -1,0 +1,5 @@
+`App.Navigation.PushAsync(new MyCustomContentPage());`
+
+Met dit stukje code kan je een naar een nieuwe page door in de pushasync een nieuwe class aan te maken met de page die je wilt openen. Bijvoorbeeld 
+als je een class Secondpage hebt kun je App.Navigation.PushAsync(new Secondpage()); gebruiken. De code maakt dan een nieuwe page aan en 
+switched hiernaartoe. Ook kan je new page veranderen in een al bestaande page.
